@@ -1,6 +1,6 @@
 # スライド
 
-[GitPitch](https://gitpitch.com/chataro0/terra_test)
+[GitPitch](https://gitpitch.com/chataro0/terra_workshop)
 
 ---
 
