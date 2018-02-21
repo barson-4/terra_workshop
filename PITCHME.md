@@ -576,14 +576,9 @@ packer build packer01.json
 
 +++
 
-```js
-module "mod" {
-    source  = "./src"
-    sg_name = "sg05"
-    instance_type = "t2.micro"
-    key_name = "homekey"
-    vm_name = "step05"
-}
+```bash
+cd ../step05
+cat modules.tf
 ```
 
 +++
