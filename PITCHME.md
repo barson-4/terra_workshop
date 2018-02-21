@@ -506,6 +506,8 @@ data "aws_ami" "amazon2_linux" {
     - ID, 名前で完全一致させたり、フィルタリングして該当するリソース情報を探せる
     - 結果的に１つに絞り込めなかった場合は、applyなどは失敗する
     - 値を呼び出すときは ` "${data.aws_ami.amazon2_linux.id}"`のように指定
+    - CloudFormationでは[Lambda-Backed Custom Resources](https://dev.classmethod.jp/cloud/aws/get-latest-ami-by-using-lambda-backed-custom-resources/)を使わないといけないっぽい
+        - terraformのほうがスマートかも？
 
 +++
 ```js

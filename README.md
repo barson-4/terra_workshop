@@ -4,7 +4,7 @@
 
 ---
 
-# 主なTerraFormコマンド
+# 主なTerraformコマンド
 ```bash
 terraform init
 terraform plan
@@ -31,5 +31,7 @@ terraform destroy
 # 参考文献
 - https://www.terraform.io/docs/
 - https://dev.classmethod.jp/cloud/terraform-getting-started-with-aws/
+- https://dev.classmethod.jp/cloud/aws/launch-ec2-from-latest-ami-by-cloudfortmation/
+- https://dev.classmethod.jp/cloud/aws/get-latest-ami-by-using-lambda-backed-custom-resources/
 - https://qiita.com/CkReal/items/1c6f02ce55167a511231
 - https://www.slideshare.net/takamasasakai1/terraform-aws
