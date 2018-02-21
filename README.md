@@ -1,16 +1,18 @@
-# terraform sample
-
 # スライド
 
 [GitPitch](https://gitpitch.com/chataro0/terra_test)
 
+---
+
 # 主なTerraFormコマンド
-```shell
+```bash
 terraform init
 terraform plan
 terraform apply
 terraform destroy
 ```
+
+---
 
 ## Step01
 - シンプルなEC2インスタンスを作ってみる
@@ -24,7 +26,10 @@ terraform destroy
 - 自作AMIでterraform
     - packerとansibleも使ってみる
 ## Step05
-- module化してみる
+- moduleを使ってみる
 
 # 参考文献
+- https://www.terraform.io/docs/
+- https://dev.classmethod.jp/cloud/terraform-getting-started-with-aws/
+- https://qiita.com/CkReal/items/1c6f02ce55167a511231
 - https://www.slideshare.net/takamasasakai1/terraform-aws
