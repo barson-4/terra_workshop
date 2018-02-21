@@ -642,7 +642,8 @@ terraform get
     - S3などにtfstateファイルを置ける
     - JenkinsなどのCIツールで実行すると尚良し？
     - ConsulやTerraform Enterpriseで管理できるらしい
+       - 使ってる方、自分たちなりの方法があったら聞きたいです！
 
- +++
++++
 
 ## 求ム！Terraformers！！！
